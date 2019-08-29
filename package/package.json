@@ -1,0 +1,28 @@
+{
+  "name": "ommsraban",
+  "version": "1.0.2",
+  "description": "Test package please ignore it",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sraban/nodeTest.git"
+  },
+  "keywords": [
+    "Testing",
+    "Learn",
+    "Generate-Package/Library",
+    "Usage",
+    "of",
+    "Package/Library"
+  ],
+  "author": "Sraban Kumar Pahadasingh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sraban/nodeTest/issues"
+  },
+  "homepage": "https://github.com/sraban/nodeTest#readme"
+}
