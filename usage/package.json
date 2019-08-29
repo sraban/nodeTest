@@ -1,6 +1,6 @@
 {
   "name": "sraban",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Using the modules",
   "main": "app.js",
   "scripts": {

@@ -1,11 +1,14 @@
 {
   "name": "ommsraban",
-  "version": "1.0.2",
-  "description": "Test package please ignore it",
+  "version": "1.0.3",
+  "description": "Testing first package. Please ignore it",
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js",
     "prepublish": "npm test"
+  },
+  "bin": {
+    "ommsraban": "bin/ommsraban.js"
   },
   "repository": {
     "type": "git",
@@ -15,14 +18,16 @@
     "Testing",
     "Learn",
     "Generate-Package/Library",
-    "Usage",
-    "of",
-    "Package/Library"
+    "Usage of Package/Library",
+    "Create a COMMAND in package with passing the params/arguments in terminal. yargs is the dependency"
   ],
   "author": "Sraban Kumar Pahadasingh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sraban/nodeTest/issues"
   },
-  "homepage": "https://github.com/sraban/nodeTest#readme"
+  "homepage": "https://github.com/sraban/nodeTest#readme",
+  "dependencies": {
+    "yargs": "^14.0.0"
+  }
 }
